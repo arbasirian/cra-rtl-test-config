@@ -13,6 +13,7 @@
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
+    "test:ci": "jest --coverage --silent --ci",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.ts",
     "prepare": "husky install",
